@@ -1,0 +1,120 @@
+div.contenedor{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+
+}
+
+nav ul {
+    list-style-type: none; /* elimina viñeta*/
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+
+}
+
+a.active {
+    color: red;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-repeat:repeat-y; /*no-repeat;*/
+    /*background-size:300px 180px;*/
+}
+
+p{
+  margin-left: 300px;
+}
+
+h1{
+  text-align:center;
+  font-size: 150%;
+}
+
+
+
+#mexico{
+  color:rgb(0, 87, 0);
+}
+
+#londres{
+  color:rgb(152, 0, 0);
+}
+
+#paris{
+  color:rgb(0, 0, 158);
+}
+
+#tokyo{
+  color:FireBrick;
+}
+
+#roma{
+  color: rgb(199, 3, 3);
+}
+
+#toronto{
+  color: #9a0303;
+}
+
+#rio{
+  color: rgb(11, 133, 0);
+}
+
+#atenas{
+  color: rgb(2, 2, 151);
+}
+
+.banderaMex{
+  background-image: url("../img/mexico.jpg");
+  background-size: 28%;
+  }
+.banderaLon{
+  background-image: url("../img/londres.jpg");
+  background-size: 28%;
+}
+.banderaPar{
+  background-image: url("../img/paris.png");
+  background-size: 28%;
+}
+.banderaTok{
+  background-image: url("../img/tokyo.jpg");
+  background-size: 28%;
+}
+.banderaIta{
+  background-image: url("../img/italia.jpg");
+  background-size: 28%;
+}
+.banderaCan{
+  background-image: url("../img/canada.jpg");
+  background-size: 28%;
+}
+.banderaBra{
+  background-image: url("../img/brasil.jpg");
+  background-size: 28%;
+}
+.banderaGre{
+  background-image: url("../img/grecia.jpg");
+  background-size: 28%;
+}
